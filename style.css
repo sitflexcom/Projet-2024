@@ -1,0 +1,66 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+    font-size: 15pt;
+    display: flex;
+    flex-direction:column;
+    
+}
+/*pour header*/
+header{
+  background-color: black;
+}
+.contenu{
+  flex: 1 0 auto;
+  margin:10px;
+  font-size:10pt;
+}
+/* pour les blogs*/
+table{
+}
+img{
+  width: 150px;
+  height: 150px;
+}
+/* la navigation premier travaux*/
+nav{
+    background-color: black;
+    position:fixed;
+    bottom:0px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+nav li{
+  width: 100%;
+}
+nav ul{
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+}
+nav a{
+  text-decoration: none;
+  text-align: center;
+  font-size: 12pt;
+  color: #ffff;
+}
+/*le footer*/
+footer{
+  background-color: blue;
+  width: 100%;
+  
+  height: 20vh;
+}
+footer p{
+  text-align: center;
+}
+/*pour l'heure*/
+.heure{
+  color: #ffff;
+  text-align: center;
+  background-color:red;
+  
+}
