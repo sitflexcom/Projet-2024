@@ -6,23 +6,24 @@ body {
     font-size: 15pt;
     display: flex;
     flex-direction:column;
-    
+    min-height: 100vh;
+    background-color: #ffff;
 }
 /*pour header*/
 header{
-  background-color: black;
+  position:fixed;
+  width: 100%;
 }
-.contenu{
-  flex: 1 0 auto;
-  margin:10px;
-  font-size:10pt;
-}
-/* pour les blogs*/
-table{
-}
-img{
-  width: 150px;
-  height: 150px;
+/*pour l'heure*/
+.heure{
+  color: #ffff;
+  background-color:black;
+  margin-left: 22.5%;
+  margin-right: 22.5%;
+  text-align: center;
+  font-size: 1.5rem;
+  height: 40px;
+  background-color: rgba(0,0,0,0.8);
 }
 /* la navigation premier travaux*/
 nav{
@@ -47,20 +48,46 @@ nav a{
   font-size: 12pt;
   color: #ffff;
 }
+/*liens google font*/
+
+
+
+/*le corps du blog*/
+.contenu{
+  margin:10px;
+  flex: 1;
+  font-size: 13pt;
+}
+/* pour les images*/
+img{
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin-right: 5px;
+}
+/*les paragraphes*/
+.para{
+  width: 100%;
+  height: 100%;
+  text-align: justify;
+}
+#para1{
+  color: blue;
+  margin-top: 40px;
+  text-align: justify;
+}
+#para2{
+  display: none;
+  text-align: justify;
+}
+
 /*le footer*/
 footer{
-  background-color: blue;
+  background-color: black;
   width: 100%;
-  
+  color:#ffff;
   height: 20vh;
 }
 footer p{
   text-align: center;
-}
-/*pour l'heure*/
-.heure{
-  color: #ffff;
-  text-align: center;
-  background-color:red;
-  
 }
